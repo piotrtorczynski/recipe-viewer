@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "E8463C26-4A6A-40AA-ABF5-A944ED5CBAD6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RecipeViewer.xcodeproj",
+      "identifier" : "734BE1972CAC6865000A14C1",
+      "name" : "RecipeViewer"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:RecipeViewer.xcodeproj",
+        "identifier" : "734BE1A82CAC6868000A14C1",
+        "name" : "RecipeViewerTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:RecipeViewer.xcodeproj",
+        "identifier" : "734BE1B22CAC6868000A14C1",
+        "name" : "RecipeViewerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
