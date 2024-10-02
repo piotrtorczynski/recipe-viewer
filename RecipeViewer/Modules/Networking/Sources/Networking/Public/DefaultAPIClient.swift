@@ -13,7 +13,7 @@ public final class DefaultAPIClient: APIClient {
 
     // MARK: APIClient
 
-    public func perform<T: APIRequest>(request: T, _ decoder: JSONDecoder = DefaultDecoder()) async throws -> T.ReturnType {
+    public func perform<T: APIRequest>(request: T, _ decoder: JSONDecoder = .init(keyDecodingStrategy: .convertFromSnakeCase)) async throws -> T.ReturnType {
         try await send(request: request, decoder)
     }
 

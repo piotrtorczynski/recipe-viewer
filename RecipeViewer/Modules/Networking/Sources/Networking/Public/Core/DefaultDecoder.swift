@@ -1,8 +1,8 @@
 import Foundation
 
-public final class DefaultDecoder: JSONDecoder {
-    public override init() {
-        super.init()
-        keyDecodingStrategy = .convertFromSnakeCase
+extension JSONDecoder {
+    public convenience init(keyDecodingStrategy: KeyDecodingStrategy) {
+        self.init()
+        self.keyDecodingStrategy = keyDecodingStrategy
     }
 }

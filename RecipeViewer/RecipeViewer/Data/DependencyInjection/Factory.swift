@@ -9,14 +9,26 @@ import Networking
 import Factory
 
 extension Container {
+    // MARK: - API Client
     var apiClient: Factory<APIClient> {
         self { DefaultAPIClient() }
             .singleton
     }
 
-    var recipesService: Factory<RecipesServiceProtocol> {
-        self { RecipesService() }
+    // MARK: Repositories
+
+    var recipesRepository: Factory<RecipesRepositoryProtocol> {
+        self { RecipesRepository() }
     }
+
+
+    // MARK: Use cases
+
+    var getRecipesUseCase: Factory<GetRecipesUseCaseProtocol> {
+        self { GetRecipesUseCase() }
+    }
+
+    // MARK: - Server Environment
 
     var serverEnvironmentProvider: Factory<ServerEnvironmentControllerProtocol> {
         self { ServerEnvironmentController() }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RecipeSearchView: View {
-    @StateObject private var viewModel = RecipeViewModel()
+    @StateObject var viewModel = RecipeViewModel()
 
     // Use a stack to manage navigation
     @State private var navigationPath = NavigationPath()
@@ -16,12 +16,7 @@ struct RecipeSearchView: View {
     var body: some View {
         NavigationStack(path: $navigationPath) {
             VStack {
-                if let errorMessage = viewModel.errorMessage {
-                    Text(errorMessage)
-                        .foregroundColor(.red)
-                        .padding()
-                }
-
+                makeErrorView()
                 switch viewModel.state {
                 case .initial, .loaded:
                     if viewModel.recipes.isEmpty {
@@ -29,14 +24,7 @@ struct RecipeSearchView: View {
                                                systemImage: "square.and.arrow.down",
                                                description: Text("Please use search to find your recipes"))
                     } else {
-                        List(viewModel.recipes) { recipe in
-                            // Programmatically navigate to the detail view when tapped
-                            Button {
-                                navigationPath.append(recipe) // Pushes the recipe onto the stack
-                            } label: {
-                                RecipeRowView(recipe: recipe)
-                            }
-                        }
+                        makeListView()
                     }
                 case .loading:
                     ProgressView()
@@ -47,11 +35,28 @@ struct RecipeSearchView: View {
                 Task { await viewModel.searchRecipes(query: viewModel.searchQuery) }
             }
             .navigationDestination(for: Recipe.self) { recipe in
-                // Destination view when a recipe is tapped
                 RecipeDetailView(recipe: recipe)
             }
-            .padding()
             .navigationTitle("Recipes")
+        }
+    }
+
+    @ViewBuilder func makeErrorView() -> some View {
+        if let errorMessage = viewModel.errorMessage {
+            Text(errorMessage)
+                .foregroundColor(.red)
+                .padding()
+        }
+    }
+
+    @ViewBuilder func makeListView() -> some View {
+        List(viewModel.recipes) { recipe in
+            RecipeRowView(recipe: recipe)
+                .transition(.opacity)
+                .animation(.easeInOut(duration: 0.3), value: viewModel.recipes)
+                .onTapGesture {
+                    navigationPath.append(recipe)
+                }
         }
     }
 }
@@ -71,31 +76,20 @@ private struct RecipeRowView: View {
                         .clipped()
                         .cornerRadius(10)
                 } placeholder: {
-                    // Placeholder while the image is loading
                     ProgressView()
                         .frame(height: 200)
                 }
             }
 
             VStack(alignment: .leading, spacing: 5) {
-                // Recipe title
                 Text(recipe.label)
                     .font(.title2)
                     .bold()
 
-                // Display total time
-                if let totalTime = recipe.totalTime, totalTime > 0 {
-                    let text = String(format: "Total Time: %2.f min", totalTime)
-                    Text(text)
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                } else {
-                    Text("Time: N/A")
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                }
+                Text(recipe.totalTime)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
 
-                // Cuisine type as a tag
                 if let cuisineType = recipe.cuisineType?.first {
                     HStack {
                         Text(cuisineType.capitalized)

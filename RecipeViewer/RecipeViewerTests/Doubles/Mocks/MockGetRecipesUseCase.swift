@@ -1,5 +1,5 @@
 //
-//  MockRecipesService.swift
+//  MockGetRecipesUseCase.swift
 //  RecipeViewer
 //
 //  Created by Piotr Torczynski on 01/10/2024.
@@ -10,7 +10,7 @@ import Networking
 
 @testable import RecipeViewer
 
-class MockRecipesService: RecipesServiceProtocol {
+class MockGetRecipesUseCase: GetRecipesUseCaseProtocol {
     var shouldThrowError = false
     var mockRecipes: [Recipe] = []
 

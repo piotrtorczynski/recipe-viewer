@@ -10,9 +10,10 @@ import Foundation
 
 @MainActor
 class RecipeDetailViewModel: ObservableObject {
-    @Published var recipe: Recipe
     @Published var formattedIngredients: [String] = []
 
+    private let recipe: Recipe
+    
     init(recipe: Recipe) {
         self.recipe = recipe
         self.formatIngredients()
@@ -34,11 +35,7 @@ class RecipeDetailViewModel: ObservableObject {
 
     // Computed property for total cooking time
     var totalTimeText: String {
-        if let totalTime = recipe.totalTime, totalTime > 0 {
-            return "Time: \(Int(totalTime)) min"
-        } else {
-            return "Time: N/A"
-        }
+        recipe.totalTime
     }
 
     // Computed property for cuisine type
@@ -48,5 +45,17 @@ class RecipeDetailViewModel: ObservableObject {
         } else {
             return "Cuisine: N/A"
         }
+    }
+
+    var recipeTitle: String {
+        recipe.label
+    }
+
+    var imageURL: URL? {
+        URL(string: recipe.image)
+    }
+
+    var recipeURL: URL? {
+        recipe.url
     }
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		734BE1E82CAC729D000A14C1 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 734BE1E72CAC729D000A14C1 /* Networking */; };
 		734BE1F02CAC7890000A14C1 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 734BE1EF2CAC7890000A14C1 /* Factory */; };
+		7391635E2CAD1D9D00A8D2C0 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7391635D2CAD1D9D00A8D2C0 /* SnapshotTesting */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7391635E2CAD1D9D00A8D2C0 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +164,7 @@
 			);
 			name = RecipeViewerTests;
 			packageProductDependencies = (
+				7391635D2CAD1D9D00A8D2C0 /* SnapshotTesting */,
 			);
 			productName = RecipeViewerTests;
 			productReference = 734BE1A92CAC6868000A14C1 /* RecipeViewerTests.xctest */;
@@ -224,6 +227,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				734BE1EE2CAC7890000A14C1 /* XCRemoteSwiftPackageReference "Factory" */,
+				7391635C2CAD1D9D00A8D2C0 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 734BE1992CAC6865000A14C1 /* Products */;
@@ -623,6 +627,14 @@
 				minimumVersion = 2.3.2;
 			};
 		};
+		7391635C2CAD1D9D00A8D2C0 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -634,6 +646,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 734BE1EE2CAC7890000A14C1 /* XCRemoteSwiftPackageReference "Factory" */;
 			productName = Factory;
+		};
+		7391635D2CAD1D9D00A8D2C0 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7391635C2CAD1D9D00A8D2C0 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

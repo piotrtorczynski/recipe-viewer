@@ -10,6 +10,7 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     @StateObject private var viewModel: RecipeDetailViewModel
+    @State private var isShowingFullRecipe = false
 
     init(recipe: Recipe) {
         _viewModel = StateObject(wrappedValue: RecipeDetailViewModel(recipe: recipe))
@@ -17,55 +18,66 @@ struct RecipeDetailView: View {
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
-                // Display recipe image
-                AsyncImage(url: URL(string: viewModel.recipe.image)) { image in
-                    image.resizable()
-                        .scaledToFit()
-                        .frame(height: 200)
-                } placeholder: {
-                    ProgressView()
+            VStack(alignment: .leading, spacing: 16) {
+
+                // Recipe Image
+                if let imageURL = viewModel.imageURL {
+                    AsyncImage(url: imageURL) { phase in
+                        switch phase {
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .scaledToFill()
+                                .frame(height: 250)
+                                .cornerRadius(10)
+                                .shadow(radius: 5)
+                        default:
+                            Color.gray
+                                .frame(height: 250)
+                                .cornerRadius(10)
+                        }
+                    }
                 }
-                .cornerRadius(10)
-                .padding()
 
-                // Recipe title
-                Text(viewModel.recipe.label)
-                    .font(.largeTitle)
-                    .padding([.leading, .trailing, .bottom])
+                // Recipe Title and Metadata
+                Text(viewModel.recipeTitle)
+                    .font(.title)
+                    .fontWeight(.bold)
 
-                // Calories and cooking time
-                HStack {
-                    Text(viewModel.caloriesText)
-                    Text(viewModel.totalTimeText)
+                Text(viewModel.totalTimeText)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+
+                Text(viewModel.cuisineTypeText)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+
+                // Full Recipe Button
+                Button("View Full Recipe") {
+                    isShowingFullRecipe = true
                 }
                 .font(.headline)
-                .padding([.leading, .trailing, .bottom])
+                .foregroundColor(.blue)
 
-                // Cuisine type
-                Text(viewModel.cuisineTypeText)
-                    .padding([.leading, .trailing, .bottom])
-
-                // Ingredients list
-                Text("Ingredients:")
-                    .font(.headline)
-                    .padding(.leading)
-
-                ForEach(viewModel.formattedIngredients, id: \.self) { ingredient in
-                    Text(ingredient)
-                        .padding([.leading, .trailing, .bottom])
+                // Ingredients Section
+                Section(header: Text("Ingredients").font(.headline)) {
+                    ForEach(viewModel.formattedIngredients, id: \.self) { ingredient in
+                        Text(ingredient)
+                            .padding(.vertical, 2)
+                    }
                 }
 
-                // Link to original recipe
-                Link("View full recipe", destination: URL(string: viewModel.recipe.url)!)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                    .padding()
+                // Calories Information
+                Text(viewModel.caloriesText)
+                    .font(.subheadline)
+                    .padding(.top, 8)
             }
+            .padding()
         }
         .navigationTitle("Recipe Details")
+        .navigationBarTitleDisplayMode(.inline)
+        .fullScreenCover(isPresented: $isShowingFullRecipe) {
+            FullRecipeView(recipeURL: viewModel.recipeURL)
+        }
     }
 }

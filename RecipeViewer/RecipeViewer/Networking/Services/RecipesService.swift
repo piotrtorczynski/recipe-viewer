@@ -8,17 +8,18 @@
 import Networking
 import Factory
 
-protocol RecipesServiceProtocol {
+protocol RecipesRepositoryProtocol {
     func getRecipes(for query: String) async throws -> [Recipe]
 }
 
-final class RecipesService: RecipesServiceProtocol {
+final class RecipesRepository: RecipesRepositoryProtocol {
 
     @Injected(\.apiClient) private var apiClient
 
     func getRecipes(for query: String) async throws -> [Recipe] {
         let request = GetRecipesRequest(searchQuery: query)
         let response = try await apiClient.perform(request: request)
-        return response.hits.map { $0.recipe }
+        let mapper = RecipeMapper()
+        return mapper.map(response: response)
     }
 }

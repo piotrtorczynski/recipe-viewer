@@ -12,7 +12,7 @@ public protocol APIClient {
 }
 
 public extension APIClient {
-    func perform<T: APIRequest>(request: T, _ decoder: JSONDecoder = DefaultDecoder()) async throws -> T.ReturnType {
+    func perform<T: APIRequest>(request: T, _ decoder: JSONDecoder = .init(keyDecodingStrategy: .convertFromSnakeCase)) async throws -> T.ReturnType {
         return try await perform(request: request, decoder)
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 import Networking
 
 struct GetRecipesRequest: APIRequest {
-    typealias ReturnType = RecipeResponse
+    typealias ReturnType = RecipeResponseDTO
 
     var path: String { "" }
 

@@ -14,21 +14,21 @@ import Factory
 final class RecipeViewModelTests: XCTestCase {
 
     var viewModel: RecipeViewModel!
-    var mockRecipesService: MockRecipesService!
+    var mockRecipesUseCase: MockGetRecipesUseCase!
 
     override func setUp() {
         super.setUp()
         Container.shared.reset()
-        Container.shared.recipesService.register {
-            self.mockRecipesService
+        Container.shared.getRecipesUseCase.register {
+            self.mockRecipesUseCase
         }
-        mockRecipesService = MockRecipesService()
+        mockRecipesUseCase = MockGetRecipesUseCase()
         viewModel = RecipeViewModel()
     }
 
     override func tearDown() {
         viewModel = nil
-        mockRecipesService = nil
+        mockRecipesUseCase = nil
         super.tearDown()
     }
 
@@ -36,7 +36,7 @@ final class RecipeViewModelTests: XCTestCase {
     func testSearchRecipes_Success() async {
         // Arrange
         let expectedRecipes: [Recipe] = [.make()]
-        mockRecipesService.mockRecipes = expectedRecipes
+        mockRecipesUseCase.mockRecipes = expectedRecipes
 
         // Act
         await viewModel.searchRecipes(query: "test")
@@ -50,7 +50,7 @@ final class RecipeViewModelTests: XCTestCase {
     // Test for error case
     func testSearchRecipes_Failure() async {
         // Arrange
-        mockRecipesService.shouldThrowError = true
+        mockRecipesUseCase.shouldThrowError = true
 
         // Act
         await viewModel.searchRecipes(query: "test")

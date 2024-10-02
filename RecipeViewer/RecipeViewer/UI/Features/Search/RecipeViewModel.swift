@@ -16,12 +16,12 @@ final class RecipeViewModel: ObservableObject {
         case loaded
     }
 
-    @Injected(\.recipesService) private var recipesService
+    @Injected(\.getRecipesUseCase) private var useCase
 
     @Published var state: State = .initial
     @Published var recipes: [Recipe] = []
-    @Published var errorMessage: String?
 
+    @Published var errorMessage: String?
     @Published var searchQuery: String = ""
 
     func searchRecipes(query: String) async {
@@ -32,7 +32,7 @@ final class RecipeViewModel: ObservableObject {
         }
 
         do {
-            let results = try await recipesService.getRecipes(for: query)
+            let results = try await useCase.getRecipes(for: query)
             recipes = results
         } catch {
             errorMessage = "Failed to fetch recipes"
