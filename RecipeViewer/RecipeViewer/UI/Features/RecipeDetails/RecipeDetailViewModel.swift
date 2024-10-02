@@ -9,7 +9,7 @@
 import Foundation
 
 @MainActor
-class RecipeDetailViewModel: ObservableObject {
+final class RecipeDetailViewModel: ObservableObject {
     @Published var formattedIngredients: [String] = []
 
     private let recipe: Recipe

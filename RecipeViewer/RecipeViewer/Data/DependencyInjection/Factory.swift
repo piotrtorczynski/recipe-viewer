@@ -32,5 +32,6 @@ extension Container {
 
     var serverEnvironmentProvider: Factory<ServerEnvironmentControllerProtocol> {
         self { ServerEnvironmentController() }
+            .scope(.singleton)
     }
 }

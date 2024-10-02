@@ -1,0 +1,1773 @@
+{
+  "from": 1,
+  "to": 20,
+  "count": 10000,
+  "_links": {
+    "next": {
+      "href": "https://api.edamam.com/api/recipes/v2?q=beef&app_key=088c50c1a294edc63d5ef255b0433f18%09&field=uri&field=label&field=image&field=url&field=ingredients&field=calories&field=totalTime&field=cuisineType&_cont=CHcVQBtNNQphDmgVQntAEX4BYUtyAQIGR21ACmUba1V0BgoVX3cWBGZANV16AAZVEmMSBmRAYVN6AgsCRmJCV2IWMAd3VxFqX3cWQT1OcV9xBE4%3D&imageSize=THUMBNAIL&type=public&app_id=df7edbab",
+      "title": "Next page"
+    }
+  },
+  "hits": [
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b6446a58a11de8fcd382254713e3f4b9",
+        "label": "Dinner Tonight: Beef Miroton",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/340/3402a9680be66922d62a325cb5cdc549.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=525b3ff0b6b6c66d45b17140dbbd7cd63cb778d53dd2c75b70895a18868f109a",
+        "url": "http://www.seriouseats.com/recipes/2009/04/dinner-tonight-beef-miroton-leftover-roast-beef-recipe.html",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 0.75,
+            "measure": "pound",
+            "food": "potatoes",
+            "weight": 340.1942775,
+            "foodCategory": "vegetables",
+            "foodId": "food_abiw5baauresjmb6xpap2bg3otzu",
+            "image": "https://www.edamam.com/food-img/651/6512e82417bce15c2899630c1a2799df.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "pound",
+            "food": "red onions",
+            "weight": 453.59237,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "butter",
+            "weight": 28.4,
+            "foodCategory": "Dairy",
+            "foodId": "food_awz3iefajbk1fwahq9logahmgltj",
+            "image": "https://www.edamam.com/food-img/713/71397239b670d88c04faa8d05035cab4.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "flour",
+            "weight": 7.8124999998679145,
+            "foodCategory": "grains",
+            "foodId": "food_ahebfs0a985an4aubqaebbipra58",
+            "image": "https://www.edamam.com/food-img/b4c/b4c739e76a6f2172b7ad49d0aa41d5aa.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "chicken broth",
+            "weight": 240,
+            "foodCategory": "canned soup",
+            "foodId": "food_bptblvzambd16nbhewqmhaw1rnh5",
+            "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Salt",
+            "weight": 7.906471994997838,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "pound",
+            "food": "roast beef",
+            "weight": 226.796185,
+            "foodCategory": "meats",
+            "foodId": "food_a94xddzbba3iwnax9cx3nan3xvea",
+            "image": "https://www.edamam.com/food-img/634/634aa9adfb65afb5fef3df13d7334985.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "tablespoon",
+            "food": "red wine vinegar",
+            "weight": 7.45,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_ad6iyy1anmzb49a817rgnabnz8c9",
+            "image": "https://www.edamam.com/food-img/dc8/dc8e998b32b8d45ba15c1b1e6711e958.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "bread crumbs",
+            "weight": 13.499999999771756,
+            "foodCategory": "bread, rolls and tortillas",
+            "foodId": "food_ata1dxza443wfda7jb4e5b3zwt9p",
+            "image": "https://www.edamam.com/food-img/349/349f852497885b9d9c0b195ad0d0db8f.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "parsley",
+            "weight": 13.177453324996396,
+            "foodCategory": "vegetables",
+            "foodId": "food_b244pqdazw24zobr5vqu2bf0uid8",
+            "image": "https://www.edamam.com/food-img/46a/46a132e96626d7989b4d6ed8c91f4da0.jpg"
+          }
+        ],
+        "calories": 1270.3928711706164,
+        "totalTime": 0,
+        "cuisineType": [
+          "central europe"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/b6446a58a11de8fcd382254713e3f4b9?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_878a91ab0fdb45f2b2642dec11290c9d",
+        "label": "Smoked Wagyu Beef Shank",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/d96/d964289a83afcc99c8022addf088444d.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4fb0eef77675eef566c8a56b5024abe29ac0bb5456281cd5fc322fd059d0fe18",
+        "url": "https://food52.com/recipes/86509-smoked-wagyu-beef-shank",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 6.5,
+            "measure": "pound",
+            "food": "Beef Shank",
+            "weight": 2948.350405,
+            "foodCategory": "meats",
+            "foodId": "food_a5df8fkb08nkskaatgb0hagygc19",
+            "image": "https://www.edamam.com/food-img/769/7693944597853171e289e9e6760e26dc.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "cup",
+            "food": "Beef Tallow",
+            "weight": 410,
+            "foodCategory": "Oils",
+            "foodId": "food_bq6j8w4b6wwaefaxgj54bb5sciko",
+            "image": "https://www.edamam.com/food-img/870/870f5cbd68a751fae5e5f829b2464f23.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.75,
+            "measure": "cup",
+            "food": "Beef Tallow",
+            "weight": 153.75,
+            "foodCategory": "Oils",
+            "foodId": "food_bq6j8w4b6wwaefaxgj54bb5sciko",
+            "image": "https://www.edamam.com/food-img/870/870f5cbd68a751fae5e5f829b2464f23.jpg"
+          }
+        ],
+        "calories": 7349.35811104,
+        "totalTime": 1200,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/878a91ab0fdb45f2b2642dec11290c9d?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7eb3edfc916ebf0e4b028c8e5c04b81a",
+        "label": "Roast sirloin of beef",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/207/2074a28ff50eba58d79304c9296438a1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=854e1ba8641f94cf95c9928b507716ef1d460eadec640cd433178c5a5eecfe66",
+        "url": "http://www.bbcgoodfood.com/recipes/2558/roast-sirloin-of-beef",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "vegetable oil",
+            "weight": 28,
+            "foodCategory": "Oils",
+            "foodId": "food_bt1mzi2ah2sfg8bv7no1qai83w8s",
+            "image": "https://www.edamam.com/food-img/6e5/6e51a63a6300a8ea1b4c4cc68dfaba33.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1.25,
+            "measure": "kilogram",
+            "food": "beef",
+            "weight": 1250,
+            "foodCategory": "meats",
+            "foodId": "food_bknby1la98smrsbwnthinbam42nj",
+            "image": "https://www.edamam.com/food-img/bab/bab88ab3ea40d34e4c8ae35d6b30344a.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "red wine",
+            "weight": 235.2,
+            "foodCategory": "wines",
+            "foodId": "food_b5q0xv2ba8la5hbzdfzdgaca3fwu",
+            "image": "https://www.edamam.com/food-img/82b/82b8d0db2d5c38fc7498a657c0afc4ee.JPG"
+          },
+          {
+            "text": null,
+            "quantity": 400,
+            "measure": "gram",
+            "food": "beef consommé",
+            "weight": 400,
+            "foodCategory": "canned soup",
+            "foodId": "food_arlagstbtxcrk4ablvuh9b36no9m",
+            "image": "https://www.edamam.com/food-img/6a5/6a5f7cf073a7e70af946bfb4d558a914.jpg"
+          }
+        ],
+        "calories": 2120.44,
+        "totalTime": 160,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/7eb3edfc916ebf0e4b028c8e5c04b81a?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0f3a359371750f372c7ac3c1459751d9",
+        "label": "Beef Tea",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/fdb/fdbf70c97bdfb86dc33e2dbab97dd847.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b4003e130ef73dee150df7f10bdaeb13f81e983fa0101462489dba765e64573a",
+        "url": "https://www.epicurious.com/recipes/food/views/beef-tea-395253",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 8,
+            "measure": "ounce",
+            "food": "chuck steak",
+            "weight": 226.796185,
+            "foodCategory": "meats",
+            "foodId": "food_axxyoglauthkj2bzoyuueb6eb3bh",
+            "image": "https://www.edamam.com/food-img/e53/e53f909f06b1a44972b9492a7604beee.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.25,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 1.5,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "cup",
+            "food": "water",
+            "weight": 709.7647095,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          }
+        ],
+        "calories": 514.82733995,
+        "totalTime": 0,
+        "cuisineType": [
+          "mediterranean"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/0f3a359371750f372c7ac3c1459751d9?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d8c1db573d6f4c23b472ece95e4b197e",
+        "label": "Rich Beef Bouillon",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/b94/b9406f7a0f4b0d5121356832c4638248.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eb7e69e1ca895be1ebf304626aabfbc8ee0b69ae7c3ee2161d57b49a95dce31e",
+        "url": "https://www.saveur.com/rich-beef-bouillon-recipe/",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2.5,
+            "measure": "pound",
+            "food": "bone-in beef short ribs",
+            "weight": 1133.980925,
+            "foodCategory": "meats",
+            "foodId": "food_aqt9j4wbqgiplrby40qruavm3a7a",
+            "image": "https://www.edamam.com/food-img/6d7/6d751106490b50afd93bda61c9824efe.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Salt",
+            "weight": 14.020662660000001,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 4,
+            "measure": "cup",
+            "food": "beef broth",
+            "weight": 960,
+            "foodCategory": "canned soup",
+            "foodId": "food_bxd832fblxgfaibgn0zk0b6dg6dh",
+            "image": "https://www.edamam.com/food-img/428/4284513ddbf46e51f0f33566c0d61715.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "soy sauce",
+            "weight": 16,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 8,
+            "measure": "ounce",
+            "food": "tomato",
+            "weight": 226.796185,
+            "foodCategory": "vegetables",
+            "foodId": "food_a6k79rrahp8fe2b26zussa3wtkqh",
+            "image": "https://www.edamam.com/food-img/23e/23e727a14f1035bdc2733bb0477efbd2.jpg"
+          }
+        ],
+        "calories": 4592.954822602999,
+        "totalTime": 335,
+        "cuisineType": [
+          "south american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/d8c1db573d6f4c23b472ece95e4b197e?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_02f83a663f684a6a33e0cc8a3538f943",
+        "label": "Beef Gulasch",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/0cb/0cb1a8874b5621ba18ef58eca82a63f5.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bac5e0568e49a0fcab2a7dbf81ae3002b3e4b8c4ab744fd2442564f6e1e01ca2",
+        "url": "https://www.bonappetit.com/recipe/beef-gulasch",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "canola oil",
+            "weight": 109,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 8,
+            "measure": "cup",
+            "food": "white onions",
+            "weight": 1280,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 6,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "dried marjoram",
+            "weight": 1.7,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bqc1f9kb84j9zcboenn1wb0c6t1a",
+            "image": "https://www.edamam.com/food-img/47f/47f75ecad128851ba407efd51c73eb47.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1.5,
+            "measure": "tablespoon",
+            "food": "tomato paste",
+            "weight": 24.5625,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_auu2atfal07b6gbd1a5wsawy7u0s",
+            "image": "https://www.edamam.com/food-img/aef/aef4e029118da71388e526086506053a.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "tablespoon",
+            "food": "sweet paprika",
+            "weight": 20.4,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a9dpcnjb883g67b3lq82ca0421ql",
+            "image": "https://www.edamam.com/food-img/474/474d63763b9d8b9da98c5f43a114648c.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1.5,
+            "measure": "teaspoon",
+            "food": "paprika",
+            "weight": 3.4499999999999997,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a9dpcnjb883g67b3lq82ca0421ql",
+            "image": "https://www.edamam.com/food-img/474/474d63763b9d8b9da98c5f43a114648c.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "white wine vinegar",
+            "weight": 238,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_ai77igmb8f0rj6blsokr8bxx5n2n",
+            "image": "https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 6,
+            "measure": "cup",
+            "food": "low-salt chicken broth",
+            "weight": 1440,
+            "foodCategory": "canned soup",
+            "foodId": "food_axg87lea13vni7a0lc9adauqgcs9",
+            "image": "https://www.edamam.com/food-img/2eb/2eb3c708f58f5fa1543022650ff0ae8d.png"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "bay leaves",
+            "weight": 1.2,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_asx39x4ayja4jab6ivj6zayvkblo",
+            "image": "https://www.edamam.com/food-img/0f9/0f9f5f95df173e9ffaaff2977bef88f3.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "lemon peel",
+            "weight": 4,
+            "foodCategory": "fruit",
+            "foodId": "food_bpg66j3a5vjuuga36uiiyaqeazpd",
+            "image": "https://www.edamam.com/food-img/540/5405605c8e9b284243f06c0b1587ab6f.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3.5,
+            "measure": "pound",
+            "food": "boneless beef short ribs",
+            "weight": 1587.5732950000001,
+            "foodCategory": "meats",
+            "foodId": "food_akdwuthblnpashbeh8u1naig0jrb",
+            "image": "https://www.edamam.com/food-img/4ed/4ed26a39971cafa1784d9fc02ad1b92d.jpg"
+          }
+        ],
+        "calories": 5665.5571580000005,
+        "totalTime": 0,
+        "cuisineType": [
+          "italian"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/02f83a663f684a6a33e0cc8a3538f943?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_710678b0fae9d4fa004975ef91aae1a3",
+        "label": "Beef Brisket",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/deb/debce0693c8d8a6988af80e1f94e4c4c.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bf120e032570ca65f6c96adc77b4ee46f369cf6ce3ddaf41dd6124fa1896b57d",
+        "url": "http://simplyrecipes.com/recipes/beef_brisket/",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3.5,
+            "measure": "pound",
+            "food": "beef",
+            "weight": 1587.5732950000001,
+            "foodCategory": "meats",
+            "foodId": "food_bknby1la98smrsbwnthinbam42nj",
+            "image": "https://www.edamam.com/food-img/bab/bab88ab3ea40d34e4c8ae35d6b30344a.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.75,
+            "measure": "cup",
+            "food": "barbeque sauce",
+            "weight": 209.25,
+            "foodCategory": "canned soup",
+            "foodId": "food_avt8j2wabi4myjaafpo4makv3lqn",
+            "image": "https://www.edamam.com/food-img/7e3/7e303aa2cbb51e4bd70f71bf5cb4a754.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "soy sauce",
+            "weight": 63.75,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "water",
+            "weight": 236.5882365,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          }
+        ],
+        "calories": 2457.5427835,
+        "totalTime": 0,
+        "cuisineType": [
+          "british"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/710678b0fae9d4fa004975ef91aae1a3?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_89f0821227fd12abbbee648358661834",
+        "label": "Beef Tenderloin",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/8eb/8eb5ba79991fbec8e35f46dd0613405b.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=dd23145a89388339329915bda42a818a72b2cd1ef65230e6deccdcf2d2cf9f4e",
+        "url": "http://www.marthastewart.com/344408/beef-tenderloin",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2.5,
+            "measure": "pound",
+            "food": "beef tenderloin",
+            "weight": 1133.980925,
+            "foodCategory": "meats",
+            "foodId": "food_au8m3zia67rlqoavmsp0cbvzhwiq",
+            "image": "https://www.edamam.com/food-img/f70/f70890fe73fc9e333aa584a88a61e351.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "olive oil",
+            "weight": 13.5,
+            "foodCategory": "Oils",
+            "foodId": "food_b1d1icuad3iktrbqby0hiagafaz7",
+            "image": "https://www.edamam.com/food-img/4d6/4d651eaa8a353647746290c7a9b29d84.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Coarse salt",
+            "weight": 6.884885550000001,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a1vgrj1bs8rd1majvmd9ubz8ttkg",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "ground pepper",
+            "weight": 3.4424427750000004,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Horseradish",
+            "weight": 0,
+            "foodCategory": null,
+            "foodId": "food_b1746ymbr3975lbxloaumbezzapp",
+            "image": "https://www.edamam.com/food-img/cfb/cfbb3295c89c973ba65040aa2d137f29.png"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Cream",
+            "weight": 0,
+            "foodCategory": "Dairy",
+            "foodId": "food_bvhbvd7bwy6a7wamfrmvmbmen1sz",
+            "image": "https://www.edamam.com/food-img/484/4848d71f6a14dd5076083f5e17925420.jpg"
+          }
+        ],
+        "calories": 2917.57360686525,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/89f0821227fd12abbbee648358661834?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d61fd8290e964a2d1bb159a34ea942ae",
+        "label": "Pioneer Woman’s Beef Brisket",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/c60/c60e420c3450c7eccd833271153f896e.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=59c5b632b3355d38daacaa367844aa015bcfca37f384c006d0e217642000aa1a",
+        "url": "http://thepioneerwoman.com/cooking/2007/06/brisket_baby/",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "can",
+            "food": "Beef Consomme",
+            "weight": 1172,
+            "foodCategory": "canned soup",
+            "foodId": "food_arlagstbtxcrk4ablvuh9b36no9m",
+            "image": "https://www.edamam.com/food-img/6a5/6a5f7cf073a7e70af946bfb4d558a914.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "Lemon Juice",
+            "weight": 122,
+            "foodCategory": "100% juice",
+            "foodId": "food_bglm6vxahuauteb0n6ynfbg9eryu",
+            "image": "https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "Soy Sauce",
+            "weight": 382.5,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_a5g9yevb1iactoaiimbvjbkrxueh",
+            "image": "https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 5,
+            "measure": "clove",
+            "food": "Garlic",
+            "weight": 15,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "Liquid Smoke",
+            "weight": 29.573529562,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 10,
+            "measure": "pound",
+            "food": "Beef Brisket",
+            "weight": 4535.9237,
+            "foodCategory": "meats",
+            "foodId": "food_akcl1lrbxwowcrai1l6xkbtvxhsn",
+            "image": "https://www.edamam.com/food-img/e0d/e0dd59302a5bf4ff2d2e4797cdfe4160.jpg"
+          }
+        ],
+        "calories": 12911.704412000001,
+        "totalTime": 0,
+        "cuisineType": [
+          "british"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/d61fd8290e964a2d1bb159a34ea942ae?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_87309353303b4b938346fb1d9a8af304",
+        "label": "Beef Broth",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/de0/de00d2a4e0398137c00274bb309f229f.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=34bd89a46afcee435e3d723890fb568495342b5577ea6eb03d8bb0126cb17565",
+        "url": "https://www.foodandwine.com/recipes/reader-favorites-11-03-beef-broth-10-94",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2.5,
+            "measure": "pound",
+            "food": "beef bones",
+            "weight": 1133.980925,
+            "foodCategory": "meats",
+            "foodId": "food_bj15msxbui7u6mbs5mzk6bglcxpv",
+            "image": "https://www.edamam.com/food-img/fe9/fe9a9e49cc93092c033926d327ca50b4.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "red onion",
+            "weight": 150,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "carrot",
+            "weight": 72,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "celery rib",
+            "weight": 40,
+            "foodCategory": "vegetables",
+            "foodId": "food_bffeoksbyyur8ja4da73ub2xs57g",
+            "image": "https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "sprig",
+            "food": "parsley",
+            "weight": 3,
+            "foodCategory": "vegetables",
+            "foodId": "food_b244pqdazw24zobr5vqu2bf0uid8",
+            "image": "https://www.edamam.com/food-img/46a/46a132e96626d7989b4d6ed8c91f4da0.jpg"
+          }
+        ],
+        "calories": 56.46471491999999,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/87309353303b4b938346fb1d9a8af304?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7402ba5f26ce00846db774f04d3ff7ab",
+        "label": "Garlic beef",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/517/5170ac6de7b61cf82710b9ad257a2e34.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=be1feba46f9837f446c453512b251156a938eafa9e4045f06700e5987e658f99",
+        "url": "http://www.bbcgoodfood.com/recipes/5535/garlic-beef",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "black peppercorn",
+            "weight": 6.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 6,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 18,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 4,
+            "measure": "tablespoon",
+            "food": "red wine vinegar",
+            "weight": 59.6,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_ad6iyy1anmzb49a817rgnabnz8c9",
+            "image": "https://www.edamam.com/food-img/dc8/dc8e998b32b8d45ba15c1b1e6711e958.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 600,
+            "measure": "gram",
+            "food": "beef",
+            "weight": 600,
+            "foodCategory": "meats",
+            "foodId": "food_bknby1la98smrsbwnthinbam42nj",
+            "image": "https://www.edamam.com/food-img/bab/bab88ab3ea40d34e4c8ae35d6b30344a.jpg"
+          }
+        ],
+        "calories": 835.463,
+        "totalTime": 25,
+        "cuisineType": [
+          "eastern europe"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/7402ba5f26ce00846db774f04d3ff7ab?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_951bcdad1f74490a95e0be215a73decc",
+        "label": "Beef Skewers",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/cfa/cfab9146ced2f4fc289bc5be55c25871.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c1b52a3bd5a3daaed1aada5721b70e34da59e45898c08664619bb5951d91aa33",
+        "url": "https://www.saveur.com/article/Recipes/Espetada-Beef-Skewers/",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 4,
+            "measure": "pound",
+            "food": "sirloin beef",
+            "weight": 1814.36948,
+            "foodCategory": "meats",
+            "foodId": "food_aifm62daw1i6txalya881bcetyzn",
+            "image": "https://www.edamam.com/food-img/4f1/4f10105d5c8178f25590ca6dfcd37fca.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "tablespoon",
+            "food": "sea salt",
+            "weight": 43.68749999926138,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a1vgrj1bs8rd1majvmd9ubz8ttkg",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 6.5,
+            "measure": "clove",
+            "food": "garlic",
+            "weight": 19.5,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 6,
+            "measure": "<unit>",
+            "food": "bay leaves",
+            "weight": 3.5999999999999996,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_asx39x4ayja4jab6ivj6zayvkblo",
+            "image": "https://www.edamam.com/food-img/0f9/0f9f5f95df173e9ffaaff2977bef88f3.jpg"
+          }
+        ],
+        "calories": 3923.0736872,
+        "totalTime": 0,
+        "cuisineType": [
+          "mediterranean"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/951bcdad1f74490a95e0be215a73decc?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d25deaf1dc3c4fe9bb43249ac207b980",
+        "label": "Lemon-pepper Beef",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/da8/da841d19cdd091bfd20622862614f5fb.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=175d401a0ffbdf00bf0a9186a5d58358e4d20589ad3531ce61382be0018fa98f",
+        "url": "https://food52.com/recipes/25479-lemon-pepper-beef",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "pound",
+            "food": "beef roast",
+            "weight": 1360.77711,
+            "foodCategory": "meats",
+            "foodId": "food_a94xddzbba3iwnax9cx3nan3xvea",
+            "image": "https://www.edamam.com/food-img/634/634aa9adfb65afb5fef3df13d7334985.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "lemon rind",
+            "weight": 6,
+            "foodCategory": "fruit",
+            "foodId": "food_bpg66j3a5vjuuga36uiiyaqeazpd",
+            "image": "https://www.edamam.com/food-img/540/5405605c8e9b284243f06c0b1587ab6f.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "garlic",
+            "weight": 8.499999999856291,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "cooking oil",
+            "weight": 28,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          }
+        ],
+        "calories": 2957.3436777997863,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/d25deaf1dc3c4fe9bb43249ac207b980?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_00165d0734c5ef7bf75d4e794cb19b15",
+        "label": "Shredded Beef Chuck Roast",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/a0d/a0dc068244d66376425b1e85b79516d0.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=07f625df86ec1d5898046bbf676c908f46777704b93676b8699ed975e90a0864",
+        "url": "https://www.marthastewart.com/868652/shredded-beef-chuck-roast",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "pound",
+            "food": "beef chuck roast",
+            "weight": 1360.77711,
+            "foodCategory": "meats",
+            "foodId": "food_bfn8xjvadpjgtdax5l9smb73hzu1",
+            "image": "https://www.edamam.com/food-img/78f/78fd6f1631bf378eee8cd373b5da2128.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "head",
+            "food": "garlic",
+            "weight": 50,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "dried oregano",
+            "weight": 2.9999999999492792,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bkkw6v3bdf0sqiazmzyuiax7i8jr",
+            "image": "https://www.edamam.com/food-img/1b0/1b0eaffb1c261606e0d82fed8e9747a7.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "dried rosemary",
+            "weight": 1.2,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a0mmczzafwhi1dao3qg7aamaqdmw",
+            "image": "https://www.edamam.com/food-img/a36/a36eea912c621522f8cd795316c883a5.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 4,
+            "measure": "cup",
+            "food": "low-sodium beef broth",
+            "weight": 960,
+            "foodCategory": "canned soup",
+            "foodId": "food_bxd832fblxgfaibgn0zk0b6dg6dh",
+            "image": "https://www.edamam.com/food-img/428/4284513ddbf46e51f0f33566c0d61715.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Coarse salt",
+            "weight": 14.249862659999696,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a1vgrj1bs8rd1majvmd9ubz8ttkg",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "ground pepper",
+            "weight": 7.124931329999848,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          }
+        ],
+        "calories": 2038.9391339381652,
+        "totalTime": 380,
+        "cuisineType": [
+          "french"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/00165d0734c5ef7bf75d4e794cb19b15?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4b6aefe070f846c7a7792f8184ad5ff9",
+        "label": "Crockpot Beef Stew",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/d7a/d7aadde1ff6875e8d46f46c692691d73.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bacfcfd40a3d357a0ef8e92e83246e2a13bb1c026bec9549e2937c59c5106142",
+        "url": "https://food52.com/recipes/20960-crockpot-beef-stew",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "pound",
+            "food": "Beef sirloin",
+            "weight": 1360.77711,
+            "foodCategory": "meats",
+            "foodId": "food_aifm62daw1i6txalya881bcetyzn",
+            "image": "https://www.edamam.com/food-img/4f1/4f10105d5c8178f25590ca6dfcd37fca.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "Turnips",
+            "weight": 233.15555555555554,
+            "foodCategory": "vegetables",
+            "foodId": "food_buj0e74bxco8n0betbsnzayddt6a",
+            "image": "https://www.edamam.com/food-img/eb6/eb6a9e33bb3d24c118aca42c5b4b1971.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "potatoes",
+            "weight": 426,
+            "foodCategory": "vegetables",
+            "foodId": "food_abiw5baauresjmb6xpap2bg3otzu",
+            "image": "https://www.edamam.com/food-img/651/6512e82417bce15c2899630c1a2799df.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "Carrots",
+            "weight": 122,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "Parsnip",
+            "weight": 133,
+            "foodCategory": "vegetables",
+            "foodId": "food_admr9qdb3d66y9blt7afaazt0dbq",
+            "image": "https://www.edamam.com/food-img/ec2/ec2f9c27d98c2ca45687f96e3e487868.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "yellow onion",
+            "weight": 150,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "sprig",
+            "food": "Parsley",
+            "weight": 1,
+            "foodCategory": "vegetables",
+            "foodId": "food_b244pqdazw24zobr5vqu2bf0uid8",
+            "image": "https://www.edamam.com/food-img/46a/46a132e96626d7989b4d6ed8c91f4da0.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "garlic",
+            "weight": 13.172797996666668,
+            "foodCategory": "vegetables",
+            "foodId": "food_avtcmx6bgjv1jvay6s6stan8dnyp",
+            "image": "https://www.edamam.com/food-img/6ee/6ee142951f48aaf94f4312409f8d133d.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "stick",
+            "food": "Celery",
+            "weight": 40,
+            "foodCategory": "vegetables",
+            "foodId": "food_bffeoksbyyur8ja4da73ub2xs57g",
+            "image": "https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 8,
+            "measure": "cup",
+            "food": "Beef stock",
+            "weight": 1920,
+            "foodCategory": "canned soup",
+            "foodId": "food_bxd832fblxgfaibgn0zk0b6dg6dh",
+            "image": "https://www.edamam.com/food-img/428/4284513ddbf46e51f0f33566c0d61715.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cube",
+            "food": "bouillon",
+            "weight": 5,
+            "foodCategory": "canned soup",
+            "foodId": "food_a4blma9bmbzb9aa6dt0qmbzeb1o1",
+            "image": "https://www.edamam.com/food-img/6f7/6f71425571cb38887c2287f9860d33bd.jpg"
+          }
+        ],
+        "calories": 3790.674039970589,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/4b6aefe070f846c7a7792f8184ad5ff9?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_333e271a3dc26d367d4f6c1776cd0b13",
+        "label": "Barbecued Beef Brisket",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/b64/b64005809d54d818e6ded326347b07c8.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c50d2aa17d1fe5b9a5bcc2eedd1df219602618f548c768128e5916cf9bfc6a54",
+        "url": "http://www.saveur.com/article/Recipes/Barbecued-Beef-Brisket",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "chili powder",
+            "weight": 16,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_aii2sclb4r123rbfr2ybjasrl3nc",
+            "image": "https://www.edamam.com/food-img/e6f/e6f19043caefc23b5feda5520076617e.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "cayenne",
+            "weight": 5.3,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a8iooz3aris8gba605l07brngnrx",
+            "image": "https://www.edamam.com/food-img/374/3742b9434a0fb66a45e0dd6d227ba669.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 9,
+            "measure": "pound",
+            "food": "beef brisket",
+            "weight": 4082.33133,
+            "foodCategory": "meats",
+            "foodId": "food_akcl1lrbxwowcrai1l6xkbtvxhsn",
+            "image": "https://www.edamam.com/food-img/e0d/e0dd59302a5bf4ff2d2e4797cdfe4160.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "apple juice",
+            "weight": 248,
+            "foodCategory": "fruit",
+            "foodId": "food_ai7w4okaoeknd5b5j9o66bm6nu10",
+            "image": "https://www.edamam.com/food-img/324/32497d8cd6291a6f03acc032e1da7676.jpg"
+          }
+        ],
+        "calories": 11443.2884708,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/333e271a3dc26d367d4f6c1776cd0b13?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_289850df03ac7636a36fdb371b3a2709",
+        "label": "Pappardelle with beef",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/5bb/5bb1180e1b37bcb18d02488fde389f2b.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fe510f121f7b98b896511c1007083abf31029a04220cb3ede757d74b0fec8eb7",
+        "url": "http://www.bbcgoodfood.com/recipes/353608/pappardelle-with-beef",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "<unit>",
+            "food": "carrots",
+            "weight": 30.5,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 400,
+            "measure": "gram",
+            "food": "tomato",
+            "weight": 400,
+            "foodCategory": "canned vegetables",
+            "foodId": "food_bnmkkwqa9h2p87bz171eoby0bsey",
+            "image": "https://www.edamam.com/food-img/d4e/d4e8110d51db4311bc894167a8f77816.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 500,
+            "measure": "gram",
+            "food": "pasta",
+            "weight": 500,
+            "foodCategory": "grains",
+            "foodId": "food_a8hs60uayl5icia1qe8qoba1kwp8",
+            "image": "https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Parmesan",
+            "weight": 0,
+            "foodCategory": "Cheese",
+            "foodId": "food_a104ppxa06d3emb272fkcab3cugd",
+            "image": "https://www.edamam.com/food-img/f58/f588658627c59d5041e4664119829aa9.jpg"
+          }
+        ],
+        "calories": 1931.505,
+        "totalTime": 35,
+        "cuisineType": [
+          "mediterranean"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/289850df03ac7636a36fdb371b3a2709?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_e5754c662d314d3d9eb7e0274f2b4728",
+        "label": "Beef Patty",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/9b6/9b636ef7d62ca7b2d8276ab1b24e7d58.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d073488462f4b253c7fbfcde1daa5a50a71cd3c4e37171ccca3f3b26fac841f1",
+        "url": "https://food52.com/recipes/83902-jamaican-beef-patty-recipe",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3.25,
+            "measure": "cup",
+            "food": "all-purpose flour",
+            "weight": 406.25,
+            "foodCategory": "grains",
+            "foodId": "food_ar3x97tbq9o9p6b6gzwj0am0c81l",
+            "image": "https://www.edamam.com/food-img/368/368077bbcab62f862a8c766a56ea5dd1.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "granulated sugar",
+            "weight": 8.4,
+            "foodCategory": "sugars",
+            "foodId": "food_axi2ijobrk819yb0adceobnhm1c2",
+            "image": "https://www.edamam.com/food-img/ecb/ecb3f5aaed96d0188c21b8369be07765.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "teaspoon",
+            "food": "salt",
+            "weight": 12,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "curry powder",
+            "weight": 12.6,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_ao4koeoajh7yjxaq2knzrbv55y8o",
+            "image": "https://www.edamam.com/food-img/9ce/9ce02a2887385fd2adaec8dd8adcf9c5.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "beef tallow",
+            "weight": 25.6,
+            "foodCategory": "Oils",
+            "foodId": "food_bq6j8w4b6wwaefaxgj54bb5sciko",
+            "image": "https://www.edamam.com/food-img/870/870f5cbd68a751fae5e5f829b2464f23.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1.5,
+            "measure": "cup",
+            "food": "ice water",
+            "weight": 354.88235475,
+            "foodCategory": "water",
+            "foodId": "food_a99vzubbk1ayrsad318rvbzr3dh0",
+            "image": "https://www.edamam.com/food-img/5dd/5dd9d1361847b2ca53c4b19a8f92627e.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "egg",
+            "weight": 50,
+            "foodCategory": "Eggs",
+            "foodId": "food_bhpradua77pk16aipcvzeayg732r",
+            "image": "https://www.edamam.com/food-img/a7e/a7ec7c337cb47c6550b3b118e357f077.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0,
+            "measure": null,
+            "food": "Beef",
+            "weight": 0,
+            "foodCategory": "meats",
+            "foodId": "food_bknby1la98smrsbwnthinbam42nj",
+            "image": "https://www.edamam.com/food-img/bab/bab88ab3ea40d34e4c8ae35d6b30344a.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "canola oil",
+            "weight": 28,
+            "foodCategory": "Oils",
+            "foodId": "food_bk9p9aaavhvoq4bqsnprobpsiuxs",
+            "image": "https://www.edamam.com/food-img/07e/07e106ab3536d57428e5c46d009038f8.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "carrot",
+            "weight": 61,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "bell pepper",
+            "weight": 119,
+            "foodCategory": "vegetables",
+            "foodId": "food_a8g63g7ak6bnmvbu7agxibp4a0dy",
+            "image": "https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "<unit>",
+            "food": "white onion",
+            "weight": 62.5,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "scotch bonnet",
+            "weight": 6.562499999889048,
+            "foodCategory": "vegetables",
+            "foodId": "food_aisg2uxa6litxsboi9af5aw23qoz",
+            "image": "https://www.edamam.com/food-img/e3d/e3d161d6cfe5ef287053aed5461738ba.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "curry powder",
+            "weight": 12.6,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_ao4koeoajh7yjxaq2knzrbv55y8o",
+            "image": "https://www.edamam.com/food-img/9ce/9ce02a2887385fd2adaec8dd8adcf9c5.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "garlic powder",
+            "weight": 9.7,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_boq94r1a036492bdup9u1beyph0l",
+            "image": "https://www.edamam.com/food-img/5c3/5c3db1d5a1a16b1f0a74796f74dd5985.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "onion powder",
+            "weight": 6.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_bmv8z27b1o25vcbu41ooyawd2zj4",
+            "image": "https://www.edamam.com/food-img/1e7/1e73e6f5dd96bb233abc0fcc05fb0ec8.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "allspice",
+            "weight": 1.9,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_avzem7oamop4dsa5wb65obt5ldgi",
+            "image": "https://www.edamam.com/food-img/c3f/c3f96d47d334b92f0120ff0b3a512ec3.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "smoked paprika",
+            "weight": 2.3,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a9dpcnjb883g67b3lq82ca0421ql",
+            "image": "https://www.edamam.com/food-img/474/474d63763b9d8b9da98c5f43a114648c.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "teaspoon",
+            "food": "black pepper",
+            "weight": 2.3,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "pound",
+            "food": "ground beef",
+            "weight": 453.59237,
+            "foodCategory": "meats",
+            "foodId": "food_boq91pbbhklr6sb0d9sbybzgklkm",
+            "image": "https://www.edamam.com/food-img/cfa/cfae8f9276eaf8f0d9349ba662744a0c.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "pine nuts",
+            "weight": 16.875,
+            "foodCategory": "plant-based protein",
+            "foodId": "food_b5d59t6bhqudbqalw7k4fb6ncio8",
+            "image": "https://www.edamam.com/food-img/52f/52fa29cb9d1ab6502f137a98c8a63f09.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "tablespoon",
+            "food": "raisins",
+            "weight": 18.12499999969356,
+            "foodCategory": "fruit",
+            "foodId": "food_a3qcdxyb09op1hbwstv5cbmoqc3d",
+            "image": "https://www.edamam.com/food-img/159/159e247350db62e1f87b0636a53687f5.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "bread crumbs",
+            "weight": 6.749999999885878,
+            "foodCategory": "bread, rolls and tortillas",
+            "foodId": "food_ata1dxza443wfda7jb4e5b3zwt9p",
+            "image": "https://www.edamam.com/food-img/349/349f852497885b9d9c0b195ad0d0db8f.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "cup",
+            "food": "beef stock",
+            "weight": 240,
+            "foodCategory": "canned soup",
+            "foodId": "food_bxd832fblxgfaibgn0zk0b6dg6dh",
+            "image": "https://www.edamam.com/food-img/428/4284513ddbf46e51f0f33566c0d61715.jpg"
+          }
+        ],
+        "calories": 3676.781619798597,
+        "totalTime": 25,
+        "cuisineType": [
+          "middle eastern"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/e5754c662d314d3d9eb7e0274f2b4728?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_47291513d1f446aea44e42a2a4bb3a6d",
+        "label": "Beef Stock",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/943/94327fe768dcfeeeff667fdc23fb77fa.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=23f5351365ef1760a5564616e27f43afd1d6ca59b49eae4d6a1e674055236b58",
+        "url": "https://www.saveur.com/article/Recipes/Beef-Stock/",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "<unit>",
+            "food": "yellow onions",
+            "weight": 330,
+            "foodCategory": "vegetables",
+            "foodId": "food_bmrvi4ob4binw9a5m7l07amlfcoy",
+            "image": "https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 12,
+            "measure": "pound",
+            "food": "beef shin",
+            "weight": 5443.10844,
+            "foodCategory": "meats",
+            "foodId": "food_a5df8fkb08nkskaatgb0hagygc19",
+            "image": "https://www.edamam.com/food-img/769/7693944597853171e289e9e6760e26dc.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "stalk",
+            "food": "celery",
+            "weight": 120,
+            "foodCategory": "vegetables",
+            "foodId": "food_bffeoksbyyur8ja4da73ub2xs57g",
+            "image": "https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 2,
+            "measure": "<unit>",
+            "food": "carrots",
+            "weight": 122,
+            "foodCategory": "vegetables",
+            "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+            "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 3,
+            "measure": "<unit>",
+            "food": "leeks",
+            "weight": 267,
+            "foodCategory": "vegetables",
+            "foodId": "food_a27jevnb06c1m9ax7k41xbbcwcuo",
+            "image": "https://www.edamam.com/food-img/4ae/4ae9e09d029a28e0e2c64bdfdbf3f6ae.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "bunch",
+            "food": "parsley",
+            "weight": 60,
+            "foodCategory": "vegetables",
+            "foodId": "food_b244pqdazw24zobr5vqu2bf0uid8",
+            "image": "https://www.edamam.com/food-img/46a/46a132e96626d7989b4d6ed8c91f4da0.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "<unit>",
+            "food": "Bouquet Garni",
+            "weight": 7.2,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_avsq22zadwyb5cb5sl1byaa4mbo8",
+            "image": "https://www.edamam.com/food-img/89b/89b37a04e46e052671d73addcb84aa51.jpg"
+          }
+        ],
+        "calories": 294.813632128,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/47291513d1f446aea44e42a2a4bb3a6d?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_f74cf8945ba6b56c269685572d05cb4c",
+        "label": "Beef Ribs",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/ea8/ea81aa80a4d6f837464b6356e986a441.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLWVhc3QtMSJIMEYCIQDYukDxDKko0k%2Fnw3xphd1cDIRplmKaGWQpMPo2SU94%2BAIhAPggC66qUL0b%2B3O9kE0oldnhu4COVeJbUJfUbSGmeoHDKsIFCJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgzCGENU0oef%2FcN5M28qlgWerYc4EpS%2B%2B7BOeX9sC4AgxNw9XbNpvFyJQJNQgC5AEGeV%2Fap8ZkTIAdMDae%2FpUSUAvSi5ESJBQqHyHqTnYW3dkCAUdtPv%2B%2BeWGzCm1D0W63aSptxDcYqHQIZcdVG8Pwdr4g3kQTsZMyKY2omeYYmFzKLFbN2NcNS6qxyqBJOog%2FesuTEittDv2geV2osYtSVDIssekyXZRxmPxYX4OUzhrM5C8SRjdC%2Fv6MsGwIC8wrgbo2y6lvjqHd1WUSg%2B84N1jyWz4WxYnTohJ%2BfRE%2F8t59tfIQTp4sl9XQQPj%2BorogfL05BkBH2PjBY9jN7lMyGDjL5zbiSqjnSpFixX%2Fy%2FJMTFJzpqOSzopp9bVDLaZbbb7qWZbgfieWkjX%2B3nEdji8q%2F6wvE%2B4s7pxUmNlQlcYxwi3ie%2FRLYl8w29RIXlIwjYtMxf%2BVej32SqXzlSE8BfC9iMRcNYyda%2FhY5r6bYsbZjQqBiyBcs3Z8LEb1isFuii9oweAPBVJcAgmgczYpyqrjQEH4rQdmlTs91dtAulk%2Be8q6mTkMTCuEft60BqxCPALnzvcb1Egzv2DMB9TCleIRjBWdsDZ%2BjGuiDIQcZo90NRJjlHCd6Izjh%2FfwcVn6FPPoRtj5vB0QBgYoHaa9hreHR6YoYLU9Jip%2FhBoswMBfcDZu4jHxvoVmJr3x6d%2Bap61d8bFX8IeWewpBjJgv2UFDUrFA%2BIRpxibfP8U62HC0Zvhkc8U2LZ8M2VxtCmiDixSK2PIFD2a7BaZnoNvplT0%2BZwrrHbsKYYn8NWNlMdLhoyKLBfcWeUUVXES3V6usjbJzxI7PUEoYaZZNXs6o%2FiutDnlwGpSK2jeL7w%2BOm14uM%2BAKN48INvZI%2BP6TeXUa88Wv4rlhDCI3vC3BjqwAT%2Firce9utDLMRKeNBeaVa1rlNzv700sEF%2B9LKq%2FA%2FdJktSbLSlvJRzXTH5XAOWoPzjYV%2BFJca%2Ba1TCduQgQNLARY%2FaGA69d5GJU31epylxVlPYwKpf84M%2F4eut3%2Fi71G2LejSRtAZshv1TXDfQutQJ%2BjL6vGTJ%2BLQsB2ctCSd6%2BotWNBTR10ZazXHcK7yG9D8NgbkvatoUmc4Y%2F%2FlMi9iPDtSZSZjftpgOkC11%2B%2BACh&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241001T175848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJMOU3NZQ%2F20241001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b52dd429f73e7097dfa05adf59e93f48eaa56752e3d42a5b60e26399e1c17822",
+        "url": "http://www.saveur.com/article/Recipes/Beef-Ribs",
+        "ingredients": [
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "dark brown sugar",
+            "weight": 72.5,
+            "foodCategory": "sugars",
+            "foodId": "food_aodgtqwbmeu5f6bxeffn0art3bga",
+            "image": "https://www.edamam.com/food-img/8c6/8c6662bd73900645c6385b51a95d9b03.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "black pepper",
+            "weight": 55.200000000933265,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_b6ywzluaaxv02wad7s1r9ag4py89",
+            "image": "https://www.edamam.com/food-img/c6e/c6e5c3bd8d3bc15175d9766971a4d1b2.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.5,
+            "measure": "cup",
+            "food": "paprika",
+            "weight": 54.40000000091973,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_a9dpcnjb883g67b3lq82ca0421ql",
+            "image": "https://www.edamam.com/food-img/474/474d63763b9d8b9da98c5f43a114648c.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "chili powder",
+            "weight": 32,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_aii2sclb4r123rbfr2ybjasrl3nc",
+            "image": "https://www.edamam.com/food-img/e6f/e6f19043caefc23b5feda5520076617e.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 0.25,
+            "measure": "cup",
+            "food": "salt",
+            "weight": 73,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_btxz81db72hwbra2pncvebzzzum9",
+            "image": "https://www.edamam.com/food-img/694/6943ea510918c6025795e8dc6e6eaaeb.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 1,
+            "measure": "tablespoon",
+            "food": "garlic powder",
+            "weight": 9.7,
+            "foodCategory": "Condiments and sauces",
+            "foodId": "food_boq94r1a036492bdup9u1beyph0l",
+            "image": "https://www.edamam.com/food-img/5c3/5c3db1d5a1a16b1f0a74796f74dd5985.jpg"
+          },
+          {
+            "text": null,
+            "quantity": 6,
+            "measure": "pound",
+            "food": "beef ribs",
+            "weight": 2721.55422,
+            "foodCategory": "meats",
+            "foodId": "food_bmz4m8ta2geaqubxndpaiaglramr",
+            "image": "https://www.edamam.com/food-img/4ee/4ee5e269df3713d547e0419a00f055b7.jpg"
+          }
+        ],
+        "calories": 4987.685424228936,
+        "totalTime": 0,
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "_links": {
+        "self": {
+          "title": "Self",
+          "href": "https://api.edamam.com/api/recipes/v2/f74cf8945ba6b56c269685572d05cb4c?type=public&app_id=df7edbab&app_key=088c50c1a294edc63d5ef255b0433f18%09"
+        }
+      }
+    }
+  ]
+}

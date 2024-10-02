@@ -43,6 +43,7 @@ struct RecipeDetailView: View {
                 Text(viewModel.recipeTitle)
                     .font(.title)
                     .fontWeight(.bold)
+                    .accessibilityIdentifier("recipe_title")
 
                 Text(viewModel.totalTimeText)
                     .font(.subheadline)

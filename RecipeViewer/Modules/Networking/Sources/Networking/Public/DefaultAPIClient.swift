@@ -30,9 +30,9 @@ public final class DefaultAPIClient: APIClient {
             urlRequest = try URLRequest(request: request)
             urlRequest.cachePolicy = .reloadRevalidatingCacheData
         } catch let error {
-#if DEBUG
+            #if DEBUG
             print(error)
-#endif
+            #endif
             throw error
         }
 
@@ -43,9 +43,9 @@ public final class DefaultAPIClient: APIClient {
             if (error as NSError).code == NSURLErrorNotConnectedToInternet {
                 throw APIError.internetConnectionUnavailable
             } else {
-#if DEBUG
+            #if DEBUG
                 print(error)
-#endif
+            #endif
                 throw error
             }
         }

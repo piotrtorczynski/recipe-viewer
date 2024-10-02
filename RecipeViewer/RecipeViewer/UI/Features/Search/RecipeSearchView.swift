@@ -57,6 +57,7 @@ struct RecipeSearchView: View {
                 .onTapGesture {
                     navigationPath.append(recipe)
                 }
+                .accessibilityIdentifier("recipe_element")
         }
     }
 }

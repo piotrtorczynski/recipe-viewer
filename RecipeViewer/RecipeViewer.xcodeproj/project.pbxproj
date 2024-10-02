@@ -10,6 +10,7 @@
 		734BE1E82CAC729D000A14C1 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 734BE1E72CAC729D000A14C1 /* Networking */; };
 		734BE1F02CAC7890000A14C1 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 734BE1EF2CAC7890000A14C1 /* Factory */; };
 		7391635E2CAD1D9D00A8D2C0 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7391635D2CAD1D9D00A8D2C0 /* SnapshotTesting */; };
+		739163992CAD40C300A8D2C0 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 739163982CAD40C300A8D2C0 /* Swifter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739163992CAD40C300A8D2C0 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,7 @@
 			);
 			name = RecipeViewerUITests;
 			packageProductDependencies = (
+				739163982CAD40C300A8D2C0 /* Swifter */,
 			);
 			productName = RecipeViewerUITests;
 			productReference = 734BE1B32CAC6868000A14C1 /* RecipeViewerUITests.xctest */;
@@ -212,6 +215,7 @@
 					};
 					734BE1B22CAC6868000A14C1 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 						TestTargetID = 734BE1972CAC6865000A14C1;
 					};
 				};
@@ -228,6 +232,7 @@
 			packageReferences = (
 				734BE1EE2CAC7890000A14C1 /* XCRemoteSwiftPackageReference "Factory" */,
 				7391635C2CAD1D9D00A8D2C0 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				739163972CAD40C300A8D2C0 /* XCRemoteSwiftPackageReference "swifter" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 734BE1992CAC6865000A14C1 /* Products */;
@@ -538,6 +543,7 @@
 		734BE1C42CAC6868000A14C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -549,6 +555,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = RecipeViewer;
@@ -559,6 +566,7 @@
 		734BE1C52CAC6868000A14C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -635,6 +643,14 @@
 				minimumVersion = 1.17.5;
 			};
 		};
+		739163972CAD40C300A8D2C0 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -651,6 +667,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7391635C2CAD1D9D00A8D2C0 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		739163982CAD40C300A8D2C0 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 739163972CAD40C300A8D2C0 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

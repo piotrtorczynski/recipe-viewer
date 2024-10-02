@@ -9,6 +9,11 @@
     }
   ],
   "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "isUnitTesting"
+      }
+    ],
     "targetForVariableExpansion" : {
       "containerPath" : "container:RecipeViewer.xcodeproj",
       "identifier" : "734BE1972CAC6865000A14C1",
